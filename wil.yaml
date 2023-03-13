@@ -12,6 +12,7 @@ spec:
   type: NodePort
   ports:
   - port: 8888
+    nodePort: 30088
     targetPort: 8888
   selector:
     app: wil
